@@ -1,0 +1,40 @@
+{% extends "templates/base.html" %}
+{% load i18n %}
+
+{% block title %}BE DAL | {{ query|escape }}{% endblock %}
+
+{% block header %}{% include 'templates/header_base.html' %}{% endblock %}
+
+{% block header_content %}
+<style type="text/css">
+a[name=products] { background:url('/media/img/layout/header_bg.png') repeat-x 0 -40px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1 class="content-title">
+  {% trans 'Products' %}
+</h1>
+<div id="search-wrapper">
+  <ul class="products">
+    {% for product in results %}
+    <li style="width:{{ product.photo_width }}px;">
+      <a href="{% url be_dal._products.views.show product_id=product.id, product_title=product.url %}">
+<!--width="614" height="298"-->
+        <img alt="{{ product.title|escape }}"
+        src="{{ MEDIA_URL }}{{ product.photo }}"/>
+        <div class="info">
+          <h1>{{ product.title }}</h1>
+          <span>{{ product.price }}€</span>
+          {% if product.info %}
+          <p>{{ product.info }}</p>
+          {% endif %}
+        </div>
+      </a>
+    </li>
+    {% empty %}
+    <h1>There was no results for <i><u>{{ query|escape }}</u></i>. Try with another word.</h1>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

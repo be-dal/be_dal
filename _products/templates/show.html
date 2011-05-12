@@ -1,0 +1,33 @@
+{% extends "templates/base.html" %}
+{% load i18n %}
+
+{% block title %}BE DAL | {{ product.title|escape }}{% endblock %}
+
+{% block header %}{% include 'templates/header_base.html' %}{% endblock %}
+
+{% block header_content %}
+<link rel="stylesheet" href="/media/css/show.css" type="text/css" media="all" />
+<style type="text/css">
+a[name=products] { background:url('/media/img/layout/header_bg.png') repeat-x 0 -40px; }
+.products>li { width:{{ product.photo_width }}px;background:#000; }
+</style>
+{% endblock %}
+
+{% block content %}
+<!--<embed src="{{ MEDIA_URL }}/music/lil-wayne.mp3" width="370" height="224" autostart="true"" loop="True" align="left"> </embed>-->
+<div id="left-side">
+  <ul class="products">
+    <li>
+      <img alt="{{ product.title|escape }}"
+      src="{{ MEDIA_URL }}{{ product.photo }}"/>
+      <div class="info">
+        <h1>{{ product.title }}</h1>
+        <span>{{ product.price }}€</span>
+        {% if product.info %}
+        <p>{{ product.info }}</p>
+        {% endif %}
+      </div>
+    </li>
+  </ul>
+</div>
+{% endblock %}
