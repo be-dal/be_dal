@@ -17,9 +17,11 @@ Thanks for checking out our repository. We love this project, hope you do too.
 		
 ##Django##
 
-		# try
+Try running this:
+
 		sudo apt-get install python-django
-		# if it does not work, download the latest version of django from [here](http://www.djangoproject.com/download/).
+
+If it does not work, download the latest version of django from [here](http://www.djangoproject.com/download/).
 
 ##Git##
 		
@@ -38,7 +40,6 @@ Thanks for checking out our repository. We love this project, hope you do too.
 
 ##Configure##
 
-From the **root dir** open **settings.py** with a text-editor (gedit, vim, emacs, or any other...)
 Open the python command line and type this:
 
 		from random import choice
@@ -46,15 +47,21 @@ Open the python command line and type this:
 		print ''.join([choice('abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)') for i in range(50)])
 		
 		# Copy the result.
-		# In **settings.py** find this line:
+		
+From the **root dir** open **settings.py** with a text-editor (gedit, vim, emacs, or any other...).
+		
+		# Find this line:
+		
 		SECRET_KEY = ''
 		
-		# REPLACE IT WITH
+		# REPLACE IT WITH:
+		
 		SECRET_KEY = '[what_you_copied]'
 		
 ###Then if you are planning to use SQLite:###
 
 		# In **settings.py** find the next lines:
+		
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
@@ -67,6 +74,7 @@ Open the python command line and type this:
     }
     
     # REPLACE IT WITH:
+    
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
@@ -81,6 +89,7 @@ Open the python command line and type this:
 ###If you are planning to use MySQL:###
 
 		# In **settings.py** find the next lines:
+		
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
@@ -93,6 +102,7 @@ Open the python command line and type this:
     }
     
     # REPLACE IT WITH:
+    
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
