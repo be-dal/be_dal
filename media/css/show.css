@@ -1,0 +1,5 @@
+.products { list-style-type:none;margin:0;padding:0; }
+.products>li { display:block;margin:auto;box-shadow:0 0 6px #000;-webkit-box-shadow:0 0 6px #000;-moz-box-shadow:0 0 6px #000; }
+.products>li>img { max-width:918px; }
+.products>li .info { color:#ccc;padding:8px; }
+.products>li .info>h1 { margin:0; }

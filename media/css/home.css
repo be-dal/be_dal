@@ -1,0 +1,31 @@
+/*.products { list-style-type:none;padding:0;margin:0; }
+.products>li { margin-bottom:25px;padding:0; }
+.products>li>a { display:block; }
+.products>li>a>img { background-color:#E9E9E9!important;color:#E9E9E9!important;
+display:block;max-width:920px;max-height:350px; }*/
+
+/*.caption-bottom { -webkit-border-radius:0 0 6px 6px; }*/
+.caption-bottom>h1 { font-weight:200;font-size:19px; }
+.caption-bottom>h1>span { float:right;color:yellow; }
+
+.slider-buttons { background: #222;padding: 10px;margin:auto;width:210px;
+position: relative;z-index: 10;opacity: .8;filter: alpha(opacity=80);
+border-radius:4px 4px 4px 4px;-moz-border-radius:4px;-webkit-border-radius:4px;
+box-shadow:0 0 5px #333333;-moz-box-shadow:0 0 5px #333333;-webkit-box-shadow:0 0 5px #333333; }
+.slider-buttons>a { width:48px;height:48px;display:inline-block; }
+.slider-buttons>a:hover { opacity: .4;filter: alpha(opacity=40); }
+.slider-buttons>.back { background-image:url('/media/img/icons/key_rewind.png'); }
+.slider-buttons>.next { background-image:url('/media/img/icons/key_fast_forward.png'); }
+.slider-buttons>.play-pause { background-image:url('/media/img/icons/key_play_pause.png'); }
+
+/*.products>li>a>.info{ padding:16px 0 16px 20px;background-color:black;*//*#2D2D2D;color:#000!important;*/
+/*position:relative; }*/
+/*.products>li>a>.info>h1 { font-size:28px;font-weight:200; }*/
+/*.products>li>a>.info>.action { display:none;font-size:15px;height:39px;line-height:39px;*/
+/*padding:0 20px;width:100px;background-color:#D00700;position:absolute;*/
+/*bottom:0;right:0;color:white;font-weight:bold;*/
+/*background:url("/media/img/layout/red_bg.jpg") repeat-x scroll left bottom #DA0000; }*/
+
+.go-further { text-align:center;font-size:40px;font-weight:100!important;text-shadow:0 1px 0 #fff; }
+.go-further>h3>a { color:#93BDFF!important;font-weight:bold!important; }
+.go-further>h3>a:hover { text-shadow:0 0 10px #000; }

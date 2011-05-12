@@ -1,0 +1,20 @@
+form[name=search] { min-height:65px; }
+
+/*index*/
+.products { list-style-type:none;padding:0;margin:0; }
+.products>li { margin:25px 0; }
+.products>li>a { display:block!important; }
+.products>li>a>img { max-width:96%;display:block;margin:auto; }
+
+/*show*/
+.product>img { max-width:96%;display:block;margin:auto; }
+.product>.info {
+border: 1px solid #2A2A2A;
+background:#111111;
+color:#ffffff;
+font-weight: bold;
+text-shadow: 0 -1px 1px #000000;
+background-image: -moz-linear-gradient(top, #3c3c3c, #111111);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, 	#3c3c3c),color-stop(1, 		#111111));
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#3c3c3c', EndColorStr='#111111')";
+width:91%;margin:auto;padding:8px 2.4%; }
