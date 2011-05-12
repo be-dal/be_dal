@@ -6,8 +6,7 @@ Thanks for checking out our repository. We love this project, hope you do too.
 
 # How to run this code #
 
-##You need to install *Python Programming Language*, *PIL*, *Git* 
-and/or *SQLite3*, *MySQLdb*.##
+##You need to install *Python Programming Language*, *PIL*, *Git* and/or *SQLite3*, *MySQLdb*.##
 
 		# installs python and PIL
 		sudo apt-get install python python-imaging 
