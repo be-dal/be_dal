@@ -60,7 +60,7 @@ From the **root dir** open **settings.py** with a text-editor (gedit, vim, emacs
 		
 ###Then if you are planning to use SQLite:###
 
-		# In **settings.py** find the next lines:
+    # In **settings.py** find the next lines:
 		
     DATABASES = {
         'default': {
@@ -88,7 +88,7 @@ From the **root dir** open **settings.py** with a text-editor (gedit, vim, emacs
 
 ###If you are planning to use MySQL:###
 
-		# In **settings.py** find the next lines:
+    # In **settings.py** find the next lines:
 		
     DATABASES = {
         'default': {
@@ -114,7 +114,8 @@ From the **root dir** open **settings.py** with a text-editor (gedit, vim, emacs
         }
     }
     
-    # DO NOT FORGET CHANGING all that is between [text]
+    
+**DO NOT FORGET CHANGING ALL THAT IS BETWEEN `[text]`**
 
 
 ##Sync the database and run the dev server##
@@ -130,19 +131,23 @@ run:
     
 We can now start the **dev** server, have fun and write awesome code !
 
-    # To start the dev server run from the **root dir**:
+    # To start the dev server run from the root dir:
     python manage.py runserver
+    
     # To use another port or IP run:
     python manage.py runserver [the_ip]:[the_port]
+    
     # Example
     python manage.py runserver 0.0.0.0:5000
 
 Now you can visit from your browser: http://localhost:8000/
+
 Or: http://[the_ip]:[the_port]
 
 ##HELP##
 
 **root dir**: It is when you go to `be_dal/` directory
+
 **dev**: development
 
 For more help contact us at "bedal75@gmail.com"
