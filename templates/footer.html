@@ -1,0 +1,15 @@
+{% load i18n %}
+{% load cache %}
+<div id="footer" class="footer">
+  <div>
+    <ul>
+      <li>&copy; BE DAL</li>
+    </ul>
+    <ul class="right">
+      <li><a href="{% url be_dal.views.about %}">{% trans 'about' %}</a></li>
+      <li><a href="{% url be_dal.views.mobile %}">{% trans 'mobile' %}</a></li>
+      <li><a href="#">{% trans 'partners' %}</a></li>
+      <li><a href="{% url be_dal.views.contact_us %}">{% trans 'contact' %}</a></li>
+    </ul>
+  </div>
+</div>

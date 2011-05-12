@@ -1,0 +1,24 @@
+{% load i18n %}
+{% load cache %}
+<div id="header" class="header">
+  <div>
+    <ul>
+      <li><a href="/" class="logo">BE DAL<!--<img src="" alt="be_dal" />--></a></li>
+    </ul>
+    <ul>
+      <li><a href="/" name="home">{% trans 'Home' %}</a></li>
+      <li><a href="{% url be_dal._products.views.search %}" name="products">{% trans 'Products' %}</a></li>
+<!--      <li><a href="#" name="galery">{% trans 'Galery' %}</a></li>-->
+      <li><a href="{% url be_dal.views.about %}" name="about">{% trans 'About' %}</a></li>
+      <li><a href="{% url be_dal.views.contact_us %}" name="contact">{% trans 'Contact us' %}</a></li>
+    </ul>
+    <ul class="search_box">
+      <li>
+        <form action="{% url be_dal._products.views.search %}" method="GET">
+          <input value="{% trans 'Search' %}" type="text" name="q"
+          class="search" onblur="Header.show_search('{% trans 'Search' %}')" />
+        </form>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+{% extends "templates/base.html" %}
+{% load i18n %}
+
+{% block title %}BE DAL | {% trans 'About Us' %}{% endblock %}
+
+{% block header %}{% include 'templates/header_base.html' %}{% endblock %}
+
+{% block header_content %}
+<link rel="stylesheet" href="/media/css/show.css" type="text/css" media="all" />
+<style type="text/css">
+a[name=contact] { background:url('/media/img/layout/header_bg.png') repeat-x 0 -40px; }
+#left-side { width:520px;float:left; }
+#right-side { width:390px;float:right;height:350px;background:url('/media/img/layout/contact-bg.png') no-repeat;
+position:relative;bottom:40px; }
+p { text-shadow:0 1px 0 #fff; }
+li>h3 { color:#93BDFF !important;text-shadow:0 1px 0 #FFFFFF; }
+li p { width:500px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1 class="content-title">
+  {% trans 'Contact us' %}
+</h1>
+<div id="left-side">
+  <form action="/contact_us/" method="POST">{% csrf_token %}
+    <table>
+<!--      {{ form.as_table }}-->
+    <tr><td></td><td><h1 style="color:#39D;text-shadow:0 1px 0 #fff;">{% trans 'Not available yet' %}</h1></td></tr>
+    <tr><td></td><td><p>{% trans 'Contact us at: <br>tgdn45 [AT] gmail [DOT] com<br>davidleroy [AT] noos [DOT] fr<br>axlandeau [AT] aol [DOT] com' %}</p></td></tr>
+<!--    <tr><td></td><td><input type="submit" /></td></tr>-->
+    </table>
+  </form>
+</div>
+<div id="right-side">
+</div>
+{% endblock %}

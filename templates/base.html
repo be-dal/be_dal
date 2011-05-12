@@ -1,0 +1,26 @@
+{% load i18n %}
+{% comment %}{% spaceless %}{% endcomment %}
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+  <meta charset='utf-8'>
+  <meta name="keywords" content="BE DAL, BEDAL, t-shirt, tee-shirt, pull, pullover, casquette, chapeau, creation, logo, inspiration, thomas gak deluen, david leroy, axel landeau, mode, style, frais, cool, 40€, 40e, vente, achat, paris, france" />
+<!--  <link href="/media/img/pm_favicon.png" rel="shortcut icon" type="image/x-icon" />-->
+<!--  <link href="/media/img/ipod_touch_icon.png" rel="apple-touch-icon" />-->
+  <link rel="stylesheet" href="/media/css/application.css" type="text/css" media="all" />
+  <script type="text/javascript" src="/media/plugins/jquery.js"></script>
+  <script type="text/javascript" src="/media/js/application.js"></script>
+  {% block header_content %}{% endblock %}
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+  {% block header %}{% endblock %}
+  <div class="content" id="content">
+    {% block content %}{% endblock %}
+  </div>
+  {% include 'templates/footer.html' %}
+	{% block js %}
+	{% endblock %}
+</body>
+</html>
+{% comment %}{% endspaceless %}{% endcomment %}

@@ -1,0 +1,60 @@
+{% extends "templates/base.html" %}
+{% load i18n %}
+
+{% block title %}BE DAL | {% trans 'About Us' %}{% endblock %}
+
+{% block header %}{% include 'templates/header_base.html' %}{% endblock %}
+
+{% block header_content %}
+<link rel="stylesheet" href="/media/css/show.css" type="text/css" media="all" />
+<style type="text/css">
+a[name=about] { background:url('/media/img/layout/header_bg.png') repeat-x 0 -40px; }
+#left-side { width:520px;float:left; }
+#right-side { width:390px;float:right;height:350px;background:url('/media/img/layout/about-bg.png') no-repeat;
+position:relative;bottom:40px; }
+p { text-shadow:0 1px 0 #fff; }
+li>h3 { color:#93BDFF !important;text-shadow:0 1px 0 #FFFFFF; }
+li p { width:500px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1 class="content-title">
+  {% trans 'About us' %} <span>{% trans 'Who we are?' %}</span>
+</h1>
+<div id="left-side">
+  <p>
+    {% blocktrans %}
+    We are 3 boys interested in making the fashion's world more stylish.
+    {% endblocktrans %}
+  </p>
+  <ul>
+    <li>
+      <h3>David Leroy</h3>
+      <p>
+      {% blocktrans %}
+        ...
+      {% endblocktrans %}
+      </p>
+    </li>
+    <li>
+      <h3>Thomas Gak Deluen</h3>
+      <p>
+      {% blocktrans %}
+        ...
+      {% endblocktrans %}
+      </p>
+    </li>
+    <li>
+      <h3>Axel Landeau</h3>
+      <p>
+      {% blocktrans %}
+        ...
+      {% endblocktrans %}
+      </p>
+    </li>
+  </ul>
+</div>
+<div id="right-side">
+</div>
+{% endblock %}
