@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-08 11:20-0500\n"
+"PO-Revision-Date: 2011-05-08 11:36\n"
+"Last-Translator: Thomas Gak Deluen <tgdn45@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Translated-Using: django-rosetta 0.6.0\n"
+
+#: forms.py:14
+msgid "Your email"
+msgstr "Votre email"
+
+#: forms.py:15
+msgid "This should be an email address"
+msgstr "Ceci devrait être une adresse email"
+
+#: forms.py:16
+msgid "Your email is required"
+msgstr "Votre email est requis"
+
+#: forms.py:17
+msgid "Your name"
+msgstr "Votre nom"
+
+#: forms.py:18
+msgid "Your name is required"
+msgstr "Votre nom est requis"
+
+#: forms.py:19
+msgid "Subject"
+msgstr "Sujet"
+
+#: forms.py:20
+msgid "A subject is required"
+msgstr "Le sujet est requis"
+
+#: forms.py:22
+msgid "Security test"
+msgstr "Test de sécurité"
+
+#: _products/views.py:46 _products/templates/search.html:16
+#: templates/header_base.html:10
+msgid "Products"
+msgstr "Produits"
+
+#: captcha/fields.py:54 django-simple-captcha-0.3.0/captcha/fields.py:54
+msgid "Play captcha as audio file"
+msgstr ""
+
+#: captcha/fields.py:72 captcha/fields.py:97 captcha/tests/__init__.py:70
+#: django-simple-captcha-0.3.0/captcha/fields.py:72
+#: django-simple-captcha-0.3.0/captcha/fields.py:97
+#: django-simple-captcha-0.3.0/captcha/tests/__init__.py:70
+msgid "Invalid CAPTCHA"
+msgstr ""
+
+#: captcha/tests/__init__.py:97
+#: django-simple-captcha-0.3.0/captcha/tests/__init__.py:97
+msgid "This field is required."
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:4
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:6
+#: rosetta/templates/rosetta/languages.html:4
+#: rosetta/templates/rosetta/languages.html:6
+msgid "Language selection"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:6
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:18
+#: rosetta/templates/rosetta/languages.html:6
+#: rosetta/templates/rosetta/pofile.html:18 templates/header_base.html:9
+msgid "Home"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:11
+#: rosetta/templates/rosetta/languages.html:11
+msgid "Filter"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:12
+#: rosetta/templates/rosetta/languages.html:12
+msgid "Project"
+msgstr "Projet"
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:13
+#: rosetta/templates/rosetta/languages.html:13
+msgid "Third party"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:15
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:35
+#: rosetta/templates/rosetta/languages.html:15
+#: rosetta/templates/rosetta/pofile.html:35
+msgid "All"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:28
+#: rosetta/templates/rosetta/languages.html:28
+msgid "Application"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:29
+#: rosetta/templates/rosetta/languages.html:29
+msgid "Progress"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:30
+#: rosetta/templates/rosetta/languages.html:30
+msgid "Messages"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:31
+#: rosetta/templates/rosetta/languages.html:31
+msgid "Translated"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:32
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:57
+#: rosetta/templates/rosetta/languages.html:32
+#: rosetta/templates/rosetta/pofile.html:57
+msgid "Fuzzy"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:33
+#: rosetta/templates/rosetta/languages.html:33
+msgid "Obsolete"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:34
+#: rosetta/templates/rosetta/languages.html:34
+msgid "File"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:55
+#: rosetta/templates/rosetta/languages.html:55
+msgid "Nothing to translate!"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:56
+#: rosetta/templates/rosetta/languages.html:56
+msgid ""
+"You haven't specified any languages in your settings file, or haven't "
+"yet generated a batch of translation catalogs."
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/languages.html:57
+#: rosetta/templates/rosetta/languages.html:57
+#, python-format
+msgid ""
+"Please refer to <a href=\"%(i18n_doc_link)s\">Django's I18N "
+"documentation</a> for a guide on how to set up internationalization for"
+" your project."
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:8
+#: rosetta/templates/rosetta/pofile.html:8
+msgid "Pick another file"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:9
+#: rosetta/templates/rosetta/pofile.html:9
+msgid "Download this catalog"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:21
+#: rosetta/templates/rosetta/pofile.html:21
+#, python-format
+msgid "Progress: %(percent_translated)s%%"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:23
+#: rosetta/templates/rosetta/pofile.html:23
+msgid "File is read-only: download the file when done editing!"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:24
+#: rosetta/templates/rosetta/pofile.html:24
+msgid ""
+"Some items in your last translation block couldn't be saved: this "
+"usually happens when the catalog file changes on disk after you last "
+"loaded it."
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:28
+#: rosetta/templates/rosetta/pofile.html:28
+#, python-format
+msgid "Translate into %(rosetta_i18n_lang_name)s"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:31
+#: rosetta/templates/rosetta/pofile.html:31
+msgid "Display:"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:32
+#: rosetta/templates/rosetta/pofile.html:32
+msgid "Untranslated only"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:33
+#: rosetta/templates/rosetta/pofile.html:33
+msgid "Translated only"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:34
+#: rosetta/templates/rosetta/pofile.html:34
+msgid "Fuzzy only"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:42
+#: rosetta/templates/rosetta/pofile.html:42 templates/header_base.html:18
+#: templates/header_base.html.py:19
+msgid "Search"
+msgstr "Chercher"
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:44
+#: rosetta/templates/rosetta/pofile.html:44
+msgid "Go"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:54
+#: rosetta/templates/rosetta/pofile.html:54
+msgid "Original"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:58
+#: rosetta/templates/rosetta/pofile.html:58
+msgid "Occurrences(s)"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:72
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:75
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:93
+#: rosetta/templates/rosetta/pofile.html:72
+#: rosetta/templates/rosetta/pofile.html:75
+#: rosetta/templates/rosetta/pofile.html:93
+msgid "Context hint"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:90
+#: rosetta/templates/rosetta/pofile.html:90
+msgid "Contextual hint"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:100
+#: rosetta/templates/rosetta/pofile.html:100
+msgid "suggest"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:111
+#: rosetta/templates/rosetta/pofile.html:111
+#, python-format
+msgid "%(more_count)s more"
+msgid_plural "%(more_count)s more"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:123
+#: rosetta/templates/rosetta/pofile.html:123
+msgid "Save and translate next block"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:127
+#: rosetta/templates/rosetta/pofile.html:127
+msgid "Skip to page:"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:140
+#: rosetta/templates/rosetta/pofile.html:140
+msgid "Displaying:"
+msgstr ""
+
+#: django-rosetta-0.6.0/rosetta/templates/rosetta/pofile.html:144
+#: rosetta/templates/rosetta/pofile.html:144
+#, python-format
+msgid "%(hits)s/%(message_number)s message"
+msgid_plural "%(hits)s/%(message_number)s messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/about.html:4 templates/contact_us.html:4
+msgid "About Us"
+msgstr "À propos"
+
+#: templates/about.html:23
+msgid "About us"
+msgstr "À propos"
+
+#: templates/about.html:23
+msgid "Who we are?"
+msgstr "Qui sommes-nous?"
+
+#: templates/about.html:27
+msgid ""
+"\n"
+"    We are 3 boys interested in making the fashion's world more stylish.\n"
+"    "
+msgstr ""
+
+#: templates/about.html:35
+msgid ""
+"\n"
+"        Photoshop is his philosophy, before writing he was drawing.\n"
+"        He thinks that the world would be prettier if everything would be designed with Photoshop.\n"
+"        Never ever dare to tell him Gimp is better than Photoshop.\n"
+"        He draw everything that he have in mind, that's BE DAL's power.\n"
+"      "
+msgstr ""
+
+#: templates/about.html:46
+msgid ""
+"\n"
+"        Born in Paris, he learned with his best friend David how to really use a computer.</b>\n"
+"        Python master and CSS hacker, he does all the web pages for the BE DAL project.\n"
+"      "
+msgstr ""
+
+#: templates/contact_us.html:23 templates/header_base.html:13
+msgid "Contact us"
+msgstr "Nous contacter"
+
+#: templates/footer.html:9
+msgid "about"
+msgstr "à propos"
+
+#: templates/footer.html:10
+msgid "partners"
+msgstr "partenaires"
+
+#: templates/footer.html:11
+msgid "contact"
+msgstr "nous contacter"
+
+#: templates/header_base.html:11
+msgid "Galery"
+msgstr "Galerie"
+
+#: templates/header_base.html:12
+msgid "About"
+msgstr "À propos"
+
+#: templates/index.html:48
+msgid "New products"
+msgstr "Nouveaux produits"
+
+#: templates/index.html:49
+msgid "hover the slideshow to <b>pause</b>"
+msgstr "survolez le diaporama pour mettre <b>pause</b>"
+
+#: templates/index.html:49
+msgid "press your keyboard left button to go <b>back</b>"
+msgstr ""
+"cliquer sur le bouton gauche de votre clavier pour aller en "
+"<b>arriere</b>"
+
+#: templates/index.html:49
+msgid "press your keyboard right button to go <b>forward</b>"
+msgstr ""
+"cliquer sur le bouton droit de votre clavier pour aller en "
+"<b>avant</b>"
+
+#: templates/index.html:75
+msgid "Go further, take a closer look ;)"
+msgstr "Aller plus loin, jeter un coup d'oeil ;)"
