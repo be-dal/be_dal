@@ -34,11 +34,11 @@ def contact_us(request):
     if form.is_valid():
       cd = form.cleaned_data
       message = """
-<h1>EMAIL de BE DAL</h1>
+BE DAL - Email 
 email: %s<br>
-nom: %s<br>
+name: %s<br>
 message: %s<br><br><br>
-Pour refpondre, envoyey un email a : %s
+Answer by sending an email at : %s
       """ % (cd['email'], cd['name'], cd['message'], cd['email'])
       mail_admins(
         cd['subject'], message,
