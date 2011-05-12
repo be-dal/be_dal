@@ -1,0 +1,25 @@
+{% extends "templates/base.html" %}
+{% load i18n %}
+
+{% block title %}BE DAL | {% trans 'Error 404' %}{% endblock %}
+
+{% block header %}{% include 'templates/header_base.html' %}{% endblock %}
+
+{% block header_content %}
+<style type="text/css">
+p { text-shadow:0 1px 0 #fff; }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1 class="content-title">
+  {% trans 'Error 404' %} <span>{% trans 'Page not found' %}</span>
+</h1>
+<div id="left-side">
+  <p>
+    {% blocktrans %}
+    This means that the requested page was not found on the server.
+    {% endblocktrans %}
+  </p>
+</div>
+{% endblock %}
