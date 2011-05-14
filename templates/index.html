@@ -20,27 +20,6 @@ a[name=home] { background:url('/media/img/layout/header_bg.png') repeat-x 0 -40p
 .slider .caption-bottom { background: #000;color: #fff;padding: 10px;margin: 0;
 position: relative;z-index: 10;opacity: .8;filter: alpha(opacity=80); }
 </style>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.slider')
-    .anythingSlider({
-   width               : 600,
-   height              : 350,
-   startStopped        : false,
-   resizeContents      : false,
-   hashTags            : false,
-   buildArrows         : false,
-   buildNavigation     : false ,
-   stopAtEnd           : false,
-   playRtl             : false,
-   startText           : "",
-   stopText            : "",
-   delay               : 3000,
-   animationTime       : 1600,
-   easing              : "linear"
-  });
-});
-</script>
 {% endblock %}
 
 {% block content %}
@@ -65,17 +44,32 @@ $(document).ready(function(){
     </li>
   {% endfor %}
   </ul>
-  <!--<div class="slider-buttons">
-    <a href="#" class="back" onclick="$('.slider').data('AnythingSlider').goBack(); return false;"></a>
-    <a href="#" class="play-pause pause" onclick="$('.slider').data('AnythingSlider').startStop(false); return false;"></a>
-    <a href="#" class="play-pause play" onclick="$('.slider').data('AnythingSlider').startStop(true); return false;"></a>
-    <a href="#" class="next" onclick="$('.slider').data('AnythingSlider').goForward(); return false;"></a>
-  </div>-->
+  
   <div class="go-further">
     <h3><a href="/products/">{% trans 'Go further, take a closer look ;)' %}</a></h3>
   </div>
 </div>
 <script type="text/javascript">
-$('.shortcuts').tipsy({ gravity: 'w', html: true, delayOut: 1000 });
+//$(document).ready(function(){
+  $('.slider')
+    .anythingSlider({
+   width               : 600,
+   height              : 350,
+   startStopped        : false,
+   resizeContents      : false,
+   hashTags            : false,
+   buildArrows         : false,
+   buildNavigation     : false ,
+   stopAtEnd           : false,
+   playRtl             : false,
+   startText           : "",
+   stopText            : "",
+   delay               : 3000,
+   animationTime       : 1600,
+   easing              : "linear"
+  });
+  
+  $('.shortcuts').tipsy({ gravity: 'w', html: true, delayOut: 1000 });
+//});
 </script>
 {% endblock %}
